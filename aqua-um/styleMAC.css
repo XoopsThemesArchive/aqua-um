@@ -1,0 +1,152 @@
+/* Xoops Style Config */
+body { text-align: left;line-height: 120%; font-family: Osaka, Verdana, Arial, Helvetica, sans-serif;}
+table td { padding: 0; border-width: 0; vertical-align: top;}
+div#content { padding: 0px 3px 0px 3px; text-align: left;}
+div#content td{ padding: 3px; line-height: 120%;}
+.odd {background-color:#ececec;}
+.outer {background-color:#666666; width: 100%;}
+.even {background-color:#f5f5f5;}
+th {background: url(images/lines.gif) #f1f1f1; color: #333333; font-size:11px; font-weight:bold;height:25px;white-space:nowrap;text-align:center;padding-left:6px;padding-right:6px}
+.head {font-weight:bold;letter-spacing:1px;background:url(images/catbkg.gif) #dedede;height:25px}
+.foot {font-weight:bold;letter-spacing:1px;background-color: #dedede;height:25px}
+ul { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; list-style: disc inside; color: #999999;}
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #000000; font-weight:bold; border: 1px solid #999999; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #2F5376; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+/* Based on the original Style Sheet for the fisubsilver v2 Theme for phpBB version 2+
+Edited by Daz  - http://www.forumimages.com - last updated 08-02-03*/
+
+/* The content of the posts (body of text) */
+body{background:#f1f1f1 url(images/lines.gif);color:#000000;font:12px Verdana,Arial,Helvetica,sans-serif;
+scrollbar-3dlight-color:#cccccc;
+scrollbar-arrow-color:#000000;
+scrollbar-base-color:#cccccc;
+scrollbar-darkshadow-color:#2f4f4f;
+scrollbar-face-color:#cccccc;
+scrollbar-highlight-color:#cccccc;
+scrollbar-shadow-color:#cccccc;
+scrollbar-track-color:#f1f1f1}
+
+/* General font families for common tags */
+font,th,td,p{font:12px Verdana,Arial,Helvetica,sans-serif}
+
+/* General text */
+.gensmall{font-size:10px}
+.genmed{font-size:11px}
+
+/* General page style. The scroll bar colours only visible in IE5.5+ */
+a:link,a:active,a:visited,a.postlink{color: #4682b4;text-decoration:none}
+a:hover{color:#000000;text-decoration:underline}
+
+/* titles for the topics:could specify viewed link colour too */
+.topictitle{font-size:11px;font-weight:bold}
+a.topictitle:visited{color:#5493b4}
+a.topictitle:hover{color:#000000}
+
+/* Name of poster in viewmsg.php and viewtopic.php and other places */
+.name{font-size:11px;font-weight: bold}
+
+hr{border: 0px solid #eeeeee;border-top-width:1px;height:0px}
+
+
+/* Main table cell colours and backgrounds */
+td.row1{background:#f5f5f5; padding: 3px;}
+
+
+/* This is the border line & background colour round the entire page */
+.bodyline{background:#ffffff;color:#000000;border:1px solid #666666}
+
+/* This is the outline round the main forum tables */
+.forumline{background:#757575;color:#000000;border:0px}
+
+/* The largest text used in the index page title and toptic title etc. */
+.maintitle,h1{
+font:bold 20px/120% "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;text-decoration:none}
+
+.subtitle,h2{font:bold 18px/180% "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;
+text-decoration:none}
+
+/* Used for the navigation text,(Page 1,2,3 etc) and the navigation bar when in a forum */
+.nav{font-size:11px;font-weight:bold}
+.postbody{font-size:12px;line-height:125%}
+
+/* Location,number of posts,post date etc */
+.postdetails{font-size:10px;color:#ff64ba}
+
+/* Quote blocks */
+.quote{background:#fafafa;border:1px solid #ff7fc5;color:#444444;
+font-size:11px;line-height:125%}
+
+/* Code blocks */
+.code{background:#fafafa;border: 1px solid #ff7fc5;color:#006600;
+font:11px Courier,"Courier New",sans-serif;padding:5px}
+
+/* This is for the error messages that pop up */
+.errorline{background:#9fcfa1;border:1px solid #6d943a}
+
+/* Form elements */
+form{display:inline}
+
+input{font:11px Verdana,Arial,Helvetica,sans-serif}
+
+select{background:#ffffff;font:11px Verdana,Arial,Helvetica,sans-serif}
+
+input.post,textarea.post{background:#ffffff;border: 1px solid #ff0690;
+font:11px Verdana,Arial,Helvetica,sans-serif;padding-bottom:2px;padding-left:2px}
+
+input.button,input.liteoption{border:1px solid #ff0690;background: #ffe3f3;font-size:11px}
+input.catbutton{border:1px solid #ff0690;background:#ffe3f3;font-size:10px}
+input.mainoption{border:1px solid #ff0690;background:#ffe3f3;font-size:11px;font-weight:bold}
+
+/* This is the line in the posting page which shows the rollover
+help line. Colour value in row2 */
+.helpline{border-style:none}
+
+/* These are table top and bottom backgrounds */
+.tt12bkg{background:url(images/tt12_m.gif) repeat-x;height:12px;width:100%}
+.tb12bkg{background:url(images/tb12_m.gif) repeat-x;height:12px;width:100%}
+.tt22bkg{background:url(images/tt22_m.gif) repeat-x;height:22px;width:100%}
+.tb22bkg{background:url(images/tb22_m.gif) repeat-x;height:22px;width:100%}
+.ttb{width:100%}
+
+/* This is the header table with imac screen */
+.scrntbkg{background:url(images/scrn_t.gif) repeat-x;height:14px;width:100%}
+.scrnbbkg{background:url(images/scrn_b.gif) repeat-x;height:14px;width:100%}
+.scrnlbkg{background:url(images/scrn_l.gif) repeat-y;width:14px}
+.scrnrbkg{background:url(images/scrn_r.gif) repeat-y;width:14px}
+.scrn{width:100%;text-align:center}
+td.scrnm{background:#ffffff}
+
+
+.item {border: 1px solid #666666;}
+.itemHead {background: #f1f1f1 url(images/lines.gif); color: #333333; height:25px; white-space:nowrap; text-align:left; padding: 3px}
+.itemInfo {text-align: right; padding: 3px; background-color: #efefef}
+.itemTitle a {font-size: 130%; font-weight: bold; font-variant: small-caps; color: #4682b4; background-color: transparent;}
+.itemPoster {font-size: 90%; font-style:italic;}
+.itemPostDate {font-size: 90%; font-style:italic;}
+.itemStats {font-size: 90%; font-style:italic;}
+.itemBody {padding-left: 5px; text-align: left}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;}
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemFoot {text-align: right; padding: 3px; background-color: #efefef}
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+
+div.xoopsCode { width:95%; background: #FFFFFF; border: 1px inset #000080; font-family: Osaka, "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+div.xoopsQuote { width:95%; background: #FFFFFF; border: 1px inset #000080; font-family: Osaka, "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
